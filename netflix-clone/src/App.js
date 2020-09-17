@@ -1,10 +1,12 @@
 import React from 'react';
 import './css//App.css';
+import Main from './pages'
+
 
 function App() {
   return (
     <div>
-      <h1>Netflix Project</h1>
+      <Main />
     </div>
   );
 }
