@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
 import logo from '../svg/logo.svg'
+import { NavLink } from 'react-router-dom'
 
 class Header extends Component {
-    render(){
+    render() {
         return (
             <div className="header-container">
-                <div className="header-top"></div>
-                    <img src={logo} />
+                <div className="header-top">
+                    <img src={logo} alt="logo" />
+                        {/* <NavLink className="signIn-btn"> Sign In</NavLink> */}
+                </div>
             </div>
-        )
+        );
     }
 }
 
