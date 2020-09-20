@@ -8,6 +8,7 @@ class Header extends Component {
             <div className="header-container">
                 <div className="header-top">
                     <img src={logo} alt="logo" />
+                    <NavLink to="/about">Sign In</NavLink>
                         {/* <NavLink className="signIn-btn"> Sign In</NavLink> */}
                 </div>
             </div>
