@@ -13,7 +13,7 @@ class Header extends Component {
                 </div>
             {/* Header Content */}
             <div className= "header-content">
-                <h1>See what's next.</h1>
+                <Title>See what's next.</Title>
                 <h2>WATCH ANYWHERE. CANCEL ANYTIME.</h2>
                 <button>try it now</button>
             </div>
@@ -63,3 +63,11 @@ const HeaderComponent = styled.div`
         z-index: 1;
     }
 `;
+
+//Main Title
+const Title = styled.h1`
+margin: 0 0 1.2rem;
+font-size: 5rem;
+font-weight: 700;
+line-height: 1.1em;
+`
