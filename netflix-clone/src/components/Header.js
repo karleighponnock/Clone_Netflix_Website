@@ -20,7 +20,7 @@ class Header extends Component {
                 <SubTitle>WATCH ANYWHERE. CANCEL ANYTIME.</SubTitle>
                 <Link className="main-offer-btn">
                     try it now
-                    <Icon icon={ic_keyboard_arrow_right} size={37} />
+                    <Icon className="Icon" icon={ic_keyboard_arrow_right} size={37} />
                     </Link>
             </div>
             </HeaderComponent>
@@ -99,6 +99,11 @@ const HeaderComponent = styled.div`
         &:hover{
             background: var(--main-red-hover)
         }
+    }
+
+    .Icon svg{
+        vertical-align: bottom;
+        margin-left: 1.5rem
     }
     
 `;
