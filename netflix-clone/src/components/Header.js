@@ -62,6 +62,18 @@ const HeaderComponent = styled.div`
         height: 10rem;
         z-index: 1;
     }
+    //Header Content
+    .header-content{
+        width: 65%;
+        position: relative;
+        margin: 4.5rem auto 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        flex-direction: column;
+        z-index: 1;
+    }
 `;
 
 //Main Title
