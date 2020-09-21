@@ -11,7 +11,12 @@ class Header extends Component {
                     <Logo src={logo} alt="logo" />
                     <NavLink  className="signIn-btn" to="/about">Sign In</NavLink>
                 </div>
-
+            {/* Header Content */}
+            <div className= "header-content">
+                <h1>See what's next.</h1>
+                <h2>WATCH ANYWHERE. CANCEL ANYTIME.</h2>
+                <button>try it now</button>
+            </div>
             </HeaderComponent>
         );
     }
