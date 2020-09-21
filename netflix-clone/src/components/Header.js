@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import logo from '../svg/logo.svg'
 import { NavLink, Link } from 'react-router-dom'
 import styled from 'styled-components'
+import {ic_keyboard_arrow_right} from 'react-icons-kit/md/ic_keyboard_arrow_right'
+import {Icon} from 'react-icons-kit'
 
 
 class Header extends Component {
@@ -16,7 +18,10 @@ class Header extends Component {
             <div className= "header-content">
                 <Title>See what's next.</Title>
                 <SubTitle>WATCH ANYWHERE. CANCEL ANYTIME.</SubTitle>
-                <Link className="main-offer-btn">try it now</Link>
+                <Link className="main-offer-btn">
+                    try it now
+                    <Icon icon={ic_keyboard_arrow_right} size={37} />
+                    </Link>
             </div>
             </HeaderComponent>
         );
