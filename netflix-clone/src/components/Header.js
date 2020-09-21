@@ -8,7 +8,7 @@ class Header extends Component {
         return (
             <HeaderComponent className="header-container">
                 <div className="header-top">
-                    <img src={logo} alt="logo" />
+                    <Logo src={logo} alt="logo" />
                     <NavLink  className="signIn-btn" to="/about">Sign In</NavLink>
                 </div>
             </HeaderComponent>
@@ -19,7 +19,16 @@ class Header extends Component {
 export default Header;
 
 //logo
-const Logo 
+const Logo = styled.img`
+width: 10rem;
+height: 3.5rem;
+position: absolute;
+top: 25%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+`;
+
 //Header Container
 const HeaderComponent = styled.div`
     .signIn-btn {
