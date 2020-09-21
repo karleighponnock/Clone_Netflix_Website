@@ -11,6 +11,7 @@ class Header extends Component {
                     <Logo src={logo} alt="logo" />
                     <NavLink  className="signIn-btn" to="/about">Sign In</NavLink>
                 </div>
+
             </HeaderComponent>
         );
     }
@@ -51,9 +52,9 @@ const HeaderComponent = styled.div`
     }
 
     //Header Top
-    .header-top{
+    .header-top {
         position: relative;
         height: 10rem;
-        
+        z-index: 1;
     }
 `;
