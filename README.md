@@ -20,7 +20,7 @@ For navigation in our react app, we are using React Router library. To style the
   - [Credits](#Credits)
 
  ## Screenshots_and_GIFs 
-  - ![Screenshot of deployed project](./assets/main.png) 
+  - ![Screenshot of deployed project](./netflix-clone/assets/main.png) 
  
 
   
