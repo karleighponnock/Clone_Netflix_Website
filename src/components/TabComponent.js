@@ -14,14 +14,18 @@ class TabComponent extends Component {
                         <Tab> 
                             <TabDoor>
                             </TabDoor>
+                            <p><strong>No commitments<br />
+                            Cancel online at anytime</strong></p>
                         </Tab>
                         <Tab> 
                             <TabDevices>
                             </TabDevices>
+                            <p><strong>Watch anywhere</strong></p>
                         </Tab>
                         <Tab> 
                             <TabPrices>
                             </TabPrices>
+                            <p><strong>Pick your price</strong></p>
                         </Tab>
                     </TabList>
                 </Tabs>
