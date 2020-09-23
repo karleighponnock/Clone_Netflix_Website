@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import TabDoor from './tabs_nav/TabDoor';
+import TabDevices from './tabs_nav/TabDevices';
 import '../css/TabsNav.css'
 
 class TabComponent extends Component {
@@ -13,7 +14,10 @@ class TabComponent extends Component {
                             <TabDoor>
                             </TabDoor>
                         </Tab>
-                        <Tab> Tab Link 2</Tab>
+                        <Tab> 
+                            <TabDevices>
+                            </TabDevices>
+                        </Tab>
                         <Tab> Tab Link 3</Tab>
                     </TabList>
                 </Tabs>
