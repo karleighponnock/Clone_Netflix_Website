@@ -9,22 +9,20 @@ class TabComponent extends Component {
     render() {
         return (
             <div>
-                <Tabs>
-                    <TabList>
+                <Tabs className="tabs">
+                    <TabList className="tab-nav-container">
                         <Tab> 
-                            <TabDoor>
-                            </TabDoor>
+                            <TabDoor />
                             <p><strong>No commitments<br />
                             Cancel online at anytime</strong></p>
                         </Tab>
                         <Tab> 
-                            <TabDevices>
-                            </TabDevices>
-                            <p><strong>Watch anywhere</strong></p>
+                            <TabDevices />
+                            <p style={{ marginTop: '-5.3125rem' }}>
+                                <strong>Watch anywhere</strong></p>
                         </Tab>
                         <Tab> 
-                            <TabPrices>
-                            </TabPrices>
+                            <TabPrices />
                             <p><strong>Pick your price</strong></p>
                         </Tab>
                     </TabList>
