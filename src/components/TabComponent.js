@@ -14,17 +14,17 @@ class TabComponent extends Component {
             <div>
                 <Tabs className="tabs">
                     <TabList className="tab-nav-container">
-                        <Tab> 
+                        <Tab className={`${this.state.tabIndex === 0 ? 'active' : null}`}> 
                             <TabDoor />
                             <p><strong>No commitments<br />
                             Cancel online at anytime</strong></p>
                         </Tab>
-                        <Tab> 
+                        <Tab className={`${this.state.tabIndex === 0 ? 'active' : null}`}> 
                             <TabDevices />
                             <p style={{ marginTop: '-5.3125rem' }}>
                                 <strong>Watch anywhere</strong></p>
                         </Tab>
-                        <Tab> 
+                        <Tab className={`${this.state.tabIndex === 0 ? 'active' : null}`}> 
                             <TabPrices />
                             <p><strong>Pick your price</strong></p>
                         </Tab>
