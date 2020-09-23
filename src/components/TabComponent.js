@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import TabDoor from './tabs_nav/TabDoor';
+import '../css/TabsNav.css'
 
 class TabComponent extends Component {
     render() {
