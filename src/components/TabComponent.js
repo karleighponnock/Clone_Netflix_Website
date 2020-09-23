@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import TabDoor from './tabs_nav/TabDoor';
 
 class TabComponent extends Component {
     render() {
@@ -7,7 +8,10 @@ class TabComponent extends Component {
             <div>
                 <Tabs>
                     <TabList>
-                        <Tab> Tab Link 1</Tab>
+                        <Tab> 
+                            <TabDoor>
+                            </TabDoor>
+                        </Tab>
                         <Tab> Tab Link 2</Tab>
                         <Tab> Tab Link 3</Tab>
                     </TabList>
