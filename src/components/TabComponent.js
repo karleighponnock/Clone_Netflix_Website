@@ -19,12 +19,12 @@ class TabComponent extends Component {
                             <p><strong>No commitments<br />
                             Cancel online at anytime</strong></p>
                         </Tab>
-                        <Tab className={`${this.state.tabIndex === 0 ? 'active' : null}`}> 
+                        <Tab className={`${this.state.tabIndex === 1 ? 'active' : null}`}> 
                             <TabDevices />
                             <p style={{ marginTop: '-5.3125rem' }}>
                                 <strong>Watch anywhere</strong></p>
                         </Tab>
-                        <Tab className={`${this.state.tabIndex === 0 ? 'active' : null}`}> 
+                        <Tab className={`${this.state.tabIndex === 2 ? 'active' : null}`}> 
                             <TabPrices />
                             <p><strong>Pick your price</strong></p>
                         </Tab>
