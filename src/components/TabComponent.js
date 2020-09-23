@@ -6,6 +6,9 @@ import TabPrices from './tabs_nav/TabPrices';
 import '../css/TabsNav.css'
 
 class TabComponent extends Component {
+    state = {
+        tabIndex: 0
+    }
     render() {
         return (
             <div>
