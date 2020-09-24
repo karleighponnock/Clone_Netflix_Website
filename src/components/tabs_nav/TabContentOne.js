@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from '../../images/tab-1-pic.png'
 
 function TabContentOne() {
     return (
@@ -9,6 +10,7 @@ function TabContentOne() {
                        No commitment. Cancel online anytime.</span>
                        <br />
                         <button>try it now</button>
+                        <img src={Img} />
                 </div>
             </div>
         </div>
