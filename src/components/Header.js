@@ -62,7 +62,7 @@ const HeaderComponent = styled.div`
 
     }
 
-    //Header Top
+    // Header Top
     .header-top {
         position: relative;
         height: 10rem;
