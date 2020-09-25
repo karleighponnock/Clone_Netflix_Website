@@ -10,13 +10,13 @@ function TabContentOne() {
             <div className="container">
                 <div className="tab-content">
                     <div>
-                    <span style={{marginBotton: '2rem'}}>
-                        If you decide Netflix isn't for you - no problem.
+                        <span style={{ marginBotton: '2rem' }}>
+                            If you decide Netflix isn't for you - no problem.
                        No commitment. Cancel online anytime.</span>
-                       <br />
-                        <Button style={{marginTop: '2rem'}}> try it now </Button>
-                        </div>
-                        <img src={Img} />
+                        <br />
+                        <Button style={{ marginTop: '2rem' }}> try it now </Button>
+                    </div>
+                    <img src={Img} />
                 </div>
             </div>
         </TabContentContainer>
