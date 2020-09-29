@@ -39,7 +39,7 @@ const TabContentContainer = styled.div`
 
     .tab-content {
         display: grid;
-        grid-template-columns: repear(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
         align-items: center;
         font-size: 2rem;
