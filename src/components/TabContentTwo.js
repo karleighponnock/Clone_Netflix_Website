@@ -7,10 +7,10 @@ import styled from 'styled-components'
             <TabContainer>
             <div className="tab-content">
                 <div className="tab-top-content">
-                    <span>
+                    <span style={{fontSize: '1.5rem'}}>
                         Watch TV shows and movies anytime, anywhere - personalized for you.
                     </span>
-                <Button>try it now</Button>
+                <Button className="btn">try it now</Button>
                 </div>
             </div>
             </TabContainer>
@@ -36,4 +36,14 @@ background: var(--main-deep-dark);
     align-item: center;
     padding: 2.5rem 0;
 }
+
+span {
+    grid-column: 1 / 8;
+}
+
+.btn {
+    margin: 0 1.25rem 1.5rem;
+    grid-column: 10 / 12;
+}
+
 `;
