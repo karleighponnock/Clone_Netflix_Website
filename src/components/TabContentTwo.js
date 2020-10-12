@@ -2,6 +2,8 @@ import React from 'react'
 import { Button } from './Button'
 import styled from 'styled-components'
 import ImgTv from '../images/tab-tv.png'
+import ImgTablet from '../images/tab-tablet.png'
+import ImgMacbook from '../images/tab-macbook.png'
 
 function TabContentTwo() {
     return (
@@ -15,18 +17,19 @@ function TabContentTwo() {
 
                     {/* //tv image container */}
                     <div>
-                        <img src={ImgTv} />
+                        <img src={ImgTv} style={{width: '18.75rem'}}/>
                         <h3>Watch on your TV</h3>
                         <p>Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blue-ray players and more.</p>
                     </div>
                      {/* //tablet image container */}
                      <div>
-                        <img src={ImgTv} />
+                        <img src={ImgTablet} style={{width: '18.75rem'}}/>
                         <h3>Watch on your TV</h3>
                         <p>Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blue-ray players and more.</p>
                     </div>
+                    {/* //macbook image container */}
                     <div>
-                        <img src={ImgTv} />
+                        <img src={ImgMacbook} style={{width: '18.75rem'}}/>
                         <h3>Watch on your TV</h3>
                         <p>Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blue-ray players and more.</p>
                     </div>
