@@ -23,13 +23,13 @@ function TabContentTwo() {
                     </div>
                      {/* //tablet image container */}
                      <div>
-                        <img src={ImgTablet} style={{width: '18.75rem'}}/>
+                        <img src={ImgTablet} style={{width: '18.75rem', paddingTop: '0.625rem'}}/>
                         <h3>Watch on your TV</h3>
                         <p>Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blue-ray players and more.</p>
                     </div>
                     {/* //macbook image container */}
                     <div>
-                        <img src={ImgMacbook} style={{width: '18.75rem'}}/>
+                        <img src={ImgMacbook} style={{width: '18.75rem', paddingTop: '0.625rem', paddingBottom:'0.625rem'}}/>
                         <h3>Watch on your TV</h3>
                         <p>Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blue-ray players and more.</p>
                     </div>
